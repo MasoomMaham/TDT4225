@@ -27,6 +27,7 @@ import static java.nio.file.StandardOpenOption.CREATE;
 public class IOTest {
 
     private static final int BLOCKSIZE = 8192;
+    //edit this value to change the file size
     private static final long NBLOCKS = 2*131072;
 
     /**
